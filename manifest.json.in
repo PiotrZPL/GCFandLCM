@@ -1,0 +1,15 @@
+{
+    "name": "gcfandlcm.piotrzpl",
+    "description": "Find the Greatest Common Factors and Lowest Common Multiples of different numbers.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "GCF & LCM",
+    "hooks": {
+        "GCFandLCM": {
+            "apparmor": "GCFandLCM.apparmor",
+            "desktop":  "GCFandLCM.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Piotr Lange <zpl20052020@protonmail.ch>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

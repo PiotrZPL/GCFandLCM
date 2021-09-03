@@ -63,7 +63,7 @@ Item {
 		        font.bold: true
 		        anchors.centerIn: parent
 		        color: "#111"
-		        text: "Find LCM"
+		        text: i18n.tr("Find LCM")
 		    }
 		
 		    MouseArea {
@@ -109,7 +109,7 @@ Item {
 		    
 			Label {
 	        id: lcmMainText
-	        text: "Enter numbers separated by points"
+	        text: i18n.tr("Enter numbers separated by points")
 	        font.pixelSize: units.gu(2.5)
 	        font.bold: true
 	        anchors.centerIn: parent

@@ -106,7 +106,7 @@ Page {
 				        font.bold: true
 				        anchors.centerIn: parent
 				        color: "#111"
-				        text: "Find GCF"
+				        text: i18n.tr("Find GCF")
 				    }
 				
 				    MouseArea {
@@ -152,7 +152,7 @@ Page {
 				    
 					Label {
 			        id: gcfMainText
-			        text: "Enter numbers separated by points"
+			        text: i18n.tr("Enter numbers separated by points")
 			        font.pixelSize: units.gu(2.5)
 			        font.bold: true
 			        anchors.centerIn: parent

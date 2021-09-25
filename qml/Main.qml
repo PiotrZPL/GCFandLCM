@@ -33,7 +33,7 @@ MainView {
     
     //property list<ContentItem> transferItemList
     //property var contentTransfer
-    property string app_version: "1.0.1"
+    property string app_version: "1.0.2"
 
     
     property var settings: Settings {

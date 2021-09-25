@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcfandlcm.piotrzpl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-29 11:40+0000\n"
+"POT-Creation-Date: 2021-09-25 11:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,4 +56,16 @@ msgstr ""
 
 #: ../qml/GCF.qml:50
 msgid "Theme"
+msgstr ""
+
+#: ../qml/GCF.qml:109
+msgid "Find GCF"
+msgstr ""
+
+#: ../qml/GCF.qml:155 ../qml/LCM.qml:112
+msgid "Enter numbers separated by points"
+msgstr ""
+
+#: ../qml/LCM.qml:66
+msgid "Find LCM"
 msgstr ""

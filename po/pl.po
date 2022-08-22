@@ -1,4 +1,4 @@
-# Copyright (C) 2021  Piotr Lange
+# Copyright (C) 2021-2022 Piotr Lange
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -10,15 +10,15 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: primecheck.piotrzpl\n"
+"Project-Id-Version: gcfandlcm.piotrzpl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-25 11:11+0000\n"
-"PO-Revision-Date: 2021-09-25 12:30+0000\n"
+"POT-Creation-Date: 2022-08-22 14:01+0000\n"
+"PO-Revision-Date: 2022-08-22 14:30+0000\n"
 "Last-Translator: PiotrZPL <zpl20052020@protonmail.ch>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -49,6 +49,31 @@ msgstr "Możliwość zgłoszenia błędów na %1"
 #: ../qml/Credits.qml:27 ../qml/Credits.qml:28
 msgid "Huge thanks to:"
 msgstr "Wielkie podziękowania dla:"
+
+#. TRANSLATORS: Name of a pearson that was important to the project + the reason why he/she was important
+#: ../qml/Credits.qml:28
+msgid "Igor Sobociński - for substantive support"
+msgstr "Igor Sobociński - za wsparcie merytoryczne"
+
+#: ../qml/Credits.qml:29
+msgid "Johan Guerreros - for Vulgry"
+msgstr "Johan Guerreros - za Vulgry"
+
+#: ../qml/Credits.qml:30
+msgid "The UBports Foundation - for Ubuntu Touch"
+msgstr "The UBports Foundation - za Ubuntu Touch"
+
+#: ../qml/Credits.qml:31
+msgid "Anne017 - French"
+msgstr "Anne017 - francuski"
+
+#: ../qml/Credits.qml:31 ../qml/Credits.qml:32
+msgid "Translators:"
+msgstr "Tłumaczenia:"
+
+#: ../qml/Credits.qml:32
+msgid "Piotr Lange - Polish"
+msgstr "Piotr Lange - polski"
 
 #: ../qml/GCF.qml:32 GCFandLCM.desktop.in.h:1
 msgid "GCF & LCM"

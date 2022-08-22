@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021  Piotr Lange
+ * Copyright (C) 2021-2022 Piotr Lange
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
  
 import QtQuick 2.4
@@ -24,8 +24,12 @@ Item {
     ListModel {
         id: creditsModel
         Component.onCompleted: {
-            creditsModel.append({ name: "Johan Guerreros - for Vulgry", title: i18n.tr("Huge thanks to:"), url: "https://launchpad.net/~johangm90" })
-            creditsModel.append({ name: "The UBports Foundation - for Ubuntu Touch", title: i18n.tr("Huge thanks to:"), url: "https://ubports.com/foundation/ubports-foundation" })
+            // TRANSLATORS: Name of a pearson that was important to the project + the reason why he/she was important
+            creditsModel.append({ name: i18n.tr("Igor Sobociński - for substantive support"), title: i18n.tr("Huge thanks to:")})
+            creditsModel.append({ name: i18n.tr("Johan Guerreros - for Vulgry"), title: i18n.tr("Huge thanks to:"), url: "https://launchpad.net/~johangm90" })
+            creditsModel.append({ name: i18n.tr("The UBports Foundation - for Ubuntu Touch"), title: i18n.tr("Huge thanks to:"), url: "https://ubports.com/foundation/ubports-foundation" })
+            creditsModel.append({ name: i18n.tr("Anne017 - French"), title: i18n.tr("Translators:"), url: "https://github.com/Anne017" })
+            creditsModel.append({ name: i18n.tr("Piotr Lange - Polish"), title: i18n.tr("Translators:"), url: "https://github.com/PiotrZPL" })
         }
     }
 

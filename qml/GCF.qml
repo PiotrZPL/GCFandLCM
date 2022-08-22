@@ -126,7 +126,7 @@ Page {
 					color: "#2d00ff"
 					color_text : "black"
 					height: parent.height / 6
-					width: parent.width / 2
+					width: parent.width / 1.5
 					onClicked: {
 						python.call("gcfcalc.calcgcf", [ textField.text ], function ( result ) {
 						var isValid = result[0];

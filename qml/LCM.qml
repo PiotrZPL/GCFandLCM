@@ -83,7 +83,7 @@ Item {
 			color: "#ff0009"
 			color_text : "black"
 			height: parent.height / 6
-			width: parent.width / 2
+			width: parent.width / 1.5
 			onClicked: {
 				python.call("lcmcalc.calclcm", [ textField.text ], function ( result ) {
 				var isValid = result[0];
